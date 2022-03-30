@@ -39,7 +39,7 @@ $faq = [
     ],
     [
         'domanda' => '<h3>Perché il mio account è associato a un paese?</h3>',
-        'risposta' => 'p>Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:</p>
+        'risposta' => '<p>Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:</p>
                                     
                         <ol>
                         <li>
@@ -104,6 +104,8 @@ $faq = [
 </head>
 
 <body>
+<div class="container">
+
 
 <?php 
 
@@ -121,7 +123,7 @@ foreach ($faq as $value){
 
 ?>
 
-
+</div>
 
 
 

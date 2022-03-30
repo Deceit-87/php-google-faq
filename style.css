@@ -1,14 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
+
+html{
     width: 1290px;
+    margin: 0 auto;
+    font-size: 16px;
+
     
+}
+a{
+    text-decoration: none;
 }
 
 
 .lower-alpha{
     list-style-type: lower-alpha;
 }
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+
+}
+h3{
+    font-size: 1.5em;
+
+}
+span i{
+    margin: 0.5em;
+    font-size: 1em;
+  }
